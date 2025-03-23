@@ -1,0 +1,21 @@
+/* Additional custom styles - minimizing custom CSS as per guidelines */
+
+.feather {
+    vertical-align: middle;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-break: keep-all;
+}
+
+/* Add some subtle animation to the status indicator */
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.7; }
+    100% { opacity: 1; }
+}
+
+.alert-info {
+    animation: pulse 2s infinite;
+}
